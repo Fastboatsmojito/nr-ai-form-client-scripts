@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Send request to /api/chat endpoint (Azure deployed backend)
-        fetch(`https://water-permit-api-poonam.azurewebsites.net/api/chat`, {
+        fetch(`https://water-permit-api-poonam-ce.azurewebsites.net/chat`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
